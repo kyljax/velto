@@ -1,0 +1,573 @@
+[
+  {
+    "accountNumber": 985751726,
+    "fname": "moses",
+    "lname": "samuel",
+    "email": "asdad@gmail.com",
+    "password": "123123",
+    "cpassword": "123123",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 218954503,
+    "transactions": [
+      {
+        "txnId": "TX3321756371813789",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": 602432478,
+        "txnAmt": 900,
+        "txnDate": "2025-08-28T09:03:33.789Z"
+      },
+      {
+        "txnId": "TX3321756618064482",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 500000,
+        "txnDate": "2025-08-31T05:27:44.482Z"
+      },
+      {
+        "txnId": "TX3321757164232268",
+        "txnType": "Credit",
+        "txnfn": "the box",
+        "txnln": "house hotel",
+        "txnSAcc": 151262360,
+        "txnAmt": 4560,
+        "txnDate": "2025-09-06T13:10:32.268Z"
+      },
+      {
+        "txnId": "TX3321764451971774",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 3456778,
+        "txnDate": "2025-11-29T21:32:51.774Z"
+      },
+      {
+        "txnId": "TX3321764452182373",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 45645,
+        "txnDate": "2025-11-29T21:36:22.373Z"
+      },
+      {
+        "txnId": "TX3321764452263310",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 343523,
+        "txnDate": "2025-11-29T21:37:43.311Z"
+      },
+      {
+        "txnId": "TX3321764573579310",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 123121,
+        "txnDate": "2025-12-01T07:19:39.310Z"
+      },
+      {
+        "txnId": "TX3321764574099216",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 10,
+        "txnDate": "2025-12-01T07:28:19.216Z"
+      },
+      {
+        "txnId": "TX3321764574207828",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 345232,
+        "txnDate": "2025-12-01T07:30:07.828Z"
+      },
+      {
+        "txnId": "TX3321764574667743",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 2312,
+        "txnDate": "2025-12-01T07:37:47.743Z"
+      },
+      {
+        "txnId": "TX3321765055770098",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 6024,
+        "txnDate": "2025-12-06T21:16:10.098Z"
+      },
+      {
+        "txnId": "TX3321765056260385",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 23412,
+        "txnDate": "2025-12-06T21:24:20.385Z"
+      },
+      {
+        "txnId": "TX3321765056664613",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 2341,
+        "txnDate": "2025-12-06T21:31:04.614Z"
+      },
+      {
+        "txnId": "TX3321765056940733",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 52345,
+        "txnDate": "2025-12-06T21:35:40.734Z"
+      },
+      {
+        "txnId": "TX3321765057328040",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 43523,
+        "txnDate": "2025-12-06T21:42:08.040Z"
+      },
+      {
+        "txnId": "TX3321765057578363",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 34523,
+        "txnDate": "2025-12-06T21:46:18.364Z"
+      },
+      {
+        "txnId": "TX3321765058132843",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 23443,
+        "txnDate": "2025-12-06T21:55:32.843Z"
+      },
+      {
+        "txnId": "TX3321765058392116",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 23122,
+        "txnDate": "2025-12-06T21:59:52.116Z"
+      }
+    ]
+  },
+  {
+    "accountNumber": 711598158,
+    "fname": "Onuoha",
+    "lname": "Emeka",
+    "email": "mosamu@gmail.com",
+    "password": "asdasd",
+    "cpassword": "asdasd",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 874009698,
+    "transactions": []
+  },
+  {
+    "accountNumber": 319096297,
+    "fname": "Favour",
+    "lname": "Chibuzor",
+    "email": "chibijust8@gmail.com",
+    "password": "asdasd",
+    "cpassword": "asdasd",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 14012845,
+    "transactions": []
+  },
+  {
+    "accountNumber": 873260133,
+    "fname": "moses",
+    "lname": "kiplopp;",
+    "email": "asda@gmail.com",
+    "password": "asdasd",
+    "cpassword": "asdasd",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 23000501,
+    "transactions": [
+      {
+        "txnId": "TX3321756537771235",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": 602432478,
+        "txnAmt": 1,
+        "txnDate": "2025-08-30T07:09:31.235Z"
+      }
+    ]
+  },
+  {
+    "accountNumber": 606810157,
+    "fname": "firstname",
+    "lname": "samuel",
+    "email": "mosmu@gmail.com",
+    "password": "asdasd",
+    "cpassword": "asdasd",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 3056050,
+    "transactions": []
+  },
+  {
+    "accountNumber": 602432478,
+    "fname": "moses",
+    "lname": "erber",
+    "email": "chisterber@gmail.com",
+    "password": "123123",
+    "cpassword": "123123",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 4608403,
+    "transactions": [
+      {
+        "txnId": "TX3321756371813789",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": "985751726",
+        "txnAmt": 900,
+        "txnDate": "2025-08-28T09:03:33.789Z"
+      },
+      {
+        "txnId": "TX3321756400972475",
+        "txnType": "Credit",
+        "txnfn": "the box",
+        "txnln": "house hotel",
+        "txnSAcc": 151262360,
+        "txnAmt": 40000,
+        "txnDate": "2025-08-28T17:09:32.475Z"
+      },
+      {
+        "txnId": "TX3321756537771235",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "kiplopp;",
+        "txnSAcc": "873260133",
+        "txnAmt": 1,
+        "txnDate": "2025-08-30T07:09:31.235Z"
+      },
+      {
+        "txnId": "TX3321756618064482",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 500000,
+        "txnDate": "2025-08-31T05:27:44.482Z"
+      },
+      {
+        "txnId": "TX3321756829643740",
+        "txnType": "Debit",
+        "txnfn": "the box",
+        "txnln": "house hotel",
+        "txnSAcc": "151262360",
+        "txnAmt": 40000,
+        "txnDate": "2025-09-02T16:14:03.740Z"
+      },
+      {
+        "txnId": "TX3321764451971774",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 3456778,
+        "txnDate": "2025-11-29T21:32:51.774Z"
+      },
+      {
+        "txnId": "TX3321764452182373",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 45645,
+        "txnDate": "2025-11-29T21:36:22.373Z"
+      },
+      {
+        "txnId": "TX3321764452263310",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 343523,
+        "txnDate": "2025-11-29T21:37:43.310Z"
+      },
+      {
+        "txnId": "TX3321764573579310",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 123121,
+        "txnDate": "2025-12-01T07:19:39.310Z"
+      },
+      {
+        "txnId": "TX3321764574099216",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 10,
+        "txnDate": "2025-12-01T07:28:19.216Z"
+      },
+      {
+        "txnId": "TX3321764574207828",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 345232,
+        "txnDate": "2025-12-01T07:30:07.828Z"
+      },
+      {
+        "txnId": "TX3321764574667743",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 2312,
+        "txnDate": "2025-12-01T07:37:47.743Z"
+      },
+      {
+        "txnId": "TX3321765055770098",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 6024,
+        "txnDate": "2025-12-06T21:16:10.098Z"
+      },
+      {
+        "txnId": "TX3321765056260385",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 23412,
+        "txnDate": "2025-12-06T21:24:20.385Z"
+      },
+      {
+        "txnId": "TX3321765056664613",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 2341,
+        "txnDate": "2025-12-06T21:31:04.614Z"
+      },
+      {
+        "txnId": "TX3321765056940733",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 52345,
+        "txnDate": "2025-12-06T21:35:40.733Z"
+      },
+      {
+        "txnId": "TX3321765057328040",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 43523,
+        "txnDate": "2025-12-06T21:42:08.040Z"
+      },
+      {
+        "txnId": "TX3321765057578363",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 34523,
+        "txnDate": "2025-12-06T21:46:18.364Z"
+      },
+      {
+        "txnId": "TX3321765058132843",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 23443,
+        "txnDate": "2025-12-06T21:55:32.843Z"
+      },
+      {
+        "txnId": "TX3321765058392116",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": 985751726,
+        "txnAmt": 23122,
+        "txnDate": "2025-12-06T21:59:52.116Z"
+      }
+    ]
+  },
+  {
+    "accountNumber": 151262360,
+    "fname": "the box",
+    "lname": "house hotel",
+    "email": "theboxhoousehotel@gmail.com",
+    "password": "123123",
+    "cpassword": "123123",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 9855151,
+    "transactions": [
+      {
+        "txnId": "TX3321756400972475",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": "602432478",
+        "txnAmt": 40000,
+        "txnDate": "2025-08-28T17:09:32.475Z"
+      },
+      {
+        "txnId": "TX3321756829643740",
+        "txnType": "Credit",
+        "txnfn": "moses",
+        "txnln": "erber",
+        "txnSAcc": 602432478,
+        "txnAmt": 40000,
+        "txnDate": "2025-09-02T16:14:03.740Z"
+      },
+      {
+        "txnId": "TX3321757164232268",
+        "txnType": "Debit",
+        "txnfn": "moses",
+        "txnln": "samuel",
+        "txnSAcc": "985751726",
+        "txnAmt": 4560,
+        "txnDate": "2025-09-06T13:10:32.268Z"
+      },
+      {
+        "txnId": "TX3321757171223064",
+        "txnType": "Debit",
+        "txnfn": "ania",
+        "txnln": "thmas",
+        "txnSAcc": "716076311",
+        "txnAmt": 50000,
+        "txnDate": "2025-09-06T15:07:03.064Z"
+      },
+      {
+        "txnId": "TX3321759994228561",
+        "txnType": "Debit",
+        "txnfn": "ben",
+        "txnln": "onye",
+        "txnSAcc": "511462389",
+        "txnAmt": 10000,
+        "txnDate": "2025-10-09T07:17:08.561Z"
+      },
+      {
+        "txnId": "TX3321766560671482",
+        "txnType": "Debit",
+        "txnfn": "Cesar A",
+        "txnln": "Tobar N",
+        "txnSAcc": "180404499",
+        "txnAmt": 80289,
+        "txnDate": "2025-12-24T07:17:51.482Z"
+      }
+    ]
+  },
+  {
+    "accountNumber": 716076311,
+    "fname": "ania",
+    "lname": "thmas",
+    "email": "theboxhoousehotesd@gmail.com",
+    "password": "Adewale2009",
+    "cpassword": "Adewale2009",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 50000,
+    "transactions": [
+      {
+        "txnId": "TX3321757171223064",
+        "txnType": "Credit",
+        "txnfn": "the box",
+        "txnln": "house hotel",
+        "txnSAcc": 151262360,
+        "txnAmt": 50000,
+        "txnDate": "2025-09-06T15:07:03.064Z"
+      }
+    ]
+  },
+  {
+    "accountNumber": 511462389,
+    "fname": "ben",
+    "lname": "onye",
+    "email": "onyeben@gmail.com",
+    "password": "123123",
+    "cpassword": "123123",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 10000,
+    "transactions": [
+      {
+        "txnId": "TX3321759994228561",
+        "txnType": "Credit",
+        "txnfn": "the box",
+        "txnln": "house hotel",
+        "txnSAcc": 151262360,
+        "txnAmt": 10000,
+        "txnDate": "2025-10-09T07:17:08.561Z"
+      }
+    ]
+  },
+  {
+    "accountNumber": 972496241,
+    "fname": "ben",
+    "lname": "ten",
+    "email": "oneben@gmail.com",
+    "password": "1234567890aas",
+    "cpassword": "1234567890aas",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 0,
+    "transactions": []
+  },
+  {
+    "accountNumber": 180404499,
+    "fname": "Cesar A",
+    "lname": "Tobar N",
+    "email": "ctobar552@gmail.com",
+    "password": "12312345",
+    "cpassword": "12312345",
+    "role": "default",
+    "loginStatus": false,
+    "balance": 80289,
+    "transactions": [
+      {
+        "txnId": "TX3321766560671482",
+        "txnType": "Credit",
+        "txnfn": "the box",
+        "txnln": "house hotel",
+        "txnSAcc": 151262360,
+        "txnAmt": 80289,
+        "txnDate": "2025-12-24T07:17:51.482Z"
+      }
+    ]
+  }
+]

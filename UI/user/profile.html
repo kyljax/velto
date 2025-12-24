@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="Banka is a light-weight core banking application that powers banking operations like account
+	creation, customer deposit and withdrawals. This app is meant to support a single bank, where
+	users can signup and create bank accounts online, but must visit the branch to withdraw or
+	deposit money">
+    <meta name="keywords" content="banka, banking, bank, deposit, withdrawals, accounts, money">
+    <meta name="loginor" content="Ileriayo Adebiyi">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div>
+        
+    <header>
+        <div class="navbar navbar--color">
+            <div class="container">
+                <div class="navbar__inner">
+                    <a href="../index.html" class="navbar__logo">Velto</a>
+                    <nav class="navbar__menu">
+                        <ul style="position: relative; right: 0;left: 40%; background-color: transparent;width: 50%;">
+                            <li style="position: relative; right: 0; background-color: darkblue;width: 90%;text-align: center;"><a href="#" id="lgOut" class="navbarMenuLi">Log out</a></li>
+                        </ul>
+                    </nav>
+                    <div class="navbar__menu-mobile">
+                        <a href="" id='toggle'>
+                            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="transact ">
+        <div class="container ">
+            <div class="transact__inner ">
+                <aside>
+                    <div class="transact__menu ">
+                        <ul class="vertical-menu">
+                            <li><a href="transaction.html" >Transactions</a></li>
+                            <!-- <li><a href="../user/new_account.html">Create Bank Account</a></li> -->
+                            <li><a href="../user/profile.html" class="vertical-menu--active">Profile</a></li>
+                        </ul>
+                        <section id="profileInfo" style="">
+                            <h4 style="">
+                                
+                            <span id="Pfname">firstname 
+                            </span> 
+                            <span id="Plname">lastname</span>
+                            </h4>
+                            <aside style="background: #fff;display: flex;"> <label for="">Account no. :</label>
+                                <h2 id="accNo">1234</h2>
+                            </aside>
+                             <aside class="justoflex">
+                                <p  style=""> Available Balance
+                                <span style="">$</span><span id="prfBal" style="width: 60%;">$0</span> 
+                                </p>
+                            <!-- 113aaa -->
+                             <!-- <section style="background: transparent; width: 100%;padding: 6px;border-radius: 3px;">
+                                <button style="width: 100%;border-radius: 9px;font-size: 99%;font-weight: bolder;color: #fff;background: linear-gradient(indianred,red,red,darkred);">show/hide</button>
+                            </section> -->
+                        </aside>
+                        </section>
+                        <!-- linear-gradient(darkblue,skyblue,white,darkblue) -->
+                        <section style="width: 99%;height: 29%;padding: 1%;background: transparent;margin: 2px auto;border-radius: 4%;">
+                                <ul class="trans_nav_ul" style="height: 50%;width: 90%;background-color: transparent; overflow: hidden; margin:4% auto;font-size: .85rem;border-radius: 2px;display: flex;flex-direction: column;align-items: center;justify-content: center;">
+                                   <!-- <li> -->
+                                    <div style="background-image: url('../img/security.svg'); width:100%;height: 100px;background-size: cover;background-position: 0 2px;">
+                                        <aside style="background: red;color: #fff;text-align: center;">Gas Fee Bal = <a href="crdRequest.html">$0.00 tkf </a></aside>
+                                    </div>
+                                    <!-- <div></div> -->
+                                   <!-- </li> -->
+                                </ul>
+                            </section>
+                    </div>
+                </aside>
+                <main class="mainSectBody">
+                    <div class="transact__main " style="border: none;">
+                        <section class="secBody" style="">
+                            <!-- <a href="login.html">Go Back</a> -->
+    
+                            <ul style="">
+                                <li class="secBodyHdr" style="">
+                                    <h2>Velto Bank</h2>
+                                    <a href="#">...</a>
+                                </li>
+                                <li class="secBodySect">
+                                    <div class="headersection">
+                                        <p>Accounts <span>(<span>1</span>) </span></p>
+                                        <p>$<span class="prfBalPrf">0.00</span> </p>
+                                    </div>
+                                </li>
+                                <li class="secBodyCardCont">
+                                    <div class="secBodyCards">
+                                        <a href="transaction.html"  class="card1">
+                                             <section style="">
+                                                        <p style="font-size: 1.1rem;">Savings Account</p>
+                                                    <div style="background-size: contain;background-repeat: no-repeat;">
+                                                        <div style="background-size: contain;background-repeat: no-repeat;">
+                                                        <div>
+                                                        <h3>
+                                                            $<span class="prfBalPrf">0.00</span>
+                                                        </h3>
+                                                        <p>
+                                                            Available Balance
+                                                        </p>
+                                                     </div>
+                                            </section>
+                                        </a>
+                                        <!-- <a href="#" class="card2">
+                                            <section style="">
+                                                <p>Claim Refund now&gt;</p>
+                                                <div style="background: white;color: darkblue;display: flex;flex-direction: column;align-items: center;justify-content: center;">
+                                                    <h3>
+                                                        $80,289
+                                                    </h3>
+                                                    <p>
+                                                        Pending Balance
+                                                    </p>
+                                                </div>
+                                            </section>
+                                        </a> -->
+                                        <!-- <a href="#" class="card3">
+                                            <section style="">
+                                                <p>CHASE SAVINGS (...0787)&gt;</p>
+                                                <div>
+                                                    <h3>
+                                                        $9,540
+                                                    </h3>
+                                                    <p>
+                                                        Failed Refund
+                                                    </p>
+                                                </div>
+                                            </section>
+                                        </a> -->
+                                    </div>
+                                </li>
+                                <!-- <li class="openAcc">
+                                   <button>
+                                    <span>+ </span> Open Bank Account
+                                   </button>
+                                </li> -->
+                            </ul>
+                
+                        </section>
+                    </div>
+                    
+                </main>
+            </div>
+        </div>
+    </div>
+    
+	<footer style="background: #000;height: 140px;" class="">
+		<div>
+			<header style="color:#fff; display: flex;list-style: none; background: linear-gradient(darkblue,darkslateblue,darkblue);padding:3px;text-align: center;">
+				<li class="socilaLnk">Facebook</li>
+				<li class="socilaLnk">Instagram</li>
+				<li class="socilaLnk">X.com</li>
+			</header>
+			<section style="display: flex; background:transparent;padding: 2px;list-style-type: none;">
+				<li class="footerSecLi">Policy</li>
+				<li class="footerSecLi">Terms & Condition</li>
+				<li class="footerSecLi">Safety & Security</li>
+				
+			</section>
+            <div>
+               <h1 style="text-align: center;color: #fff;padding: 2%;">(c) Velto 2025</h1>
+            </div>
+		</div>
+	</footer>
+    </div>
+    <script src="../js/ai.js">
+        // console.log("hey")
+    </script>
+    <script >
+        // console.log(localStorage.user)
+        // const localuser = localStorage.getItem(user);
+        // console.log(localuser);
+        // document.getElementById("Pfname").innerHTML = localStorage.user;
+    </script>
+</body>
+
+</html>
