@@ -22,8 +22,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressValidator());
 app.use(express.json());
-app.use(express.static(path.join("C:\\Users\\DELL\\Desktop\\banka-develop\\banka-develop", "UI")));
-app.use(express.static(path.join("C:\\Users\\DELL\\Desktop\\banka-develop\\banka-develop", "UI/user")));
+app.use(express.static(path.join("__dirname", "UI")));
+app.use(express.static(path.join("__dirname", "UI/user")));
 
 // CORS
 app.use((req, res, next) => {
@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 
 // app.get('/', (req, res) => res.send('Welcome to Banka'));
 
-app.get('/', (req, res) => res.sendFile(path.join("C:\\Users\\DELL\\Desktop\\banka-develop\\banka-develop","UI", "login.html")));
+app.get('/', (req, res) => res.sendFile(path.join("__dirname","UI", "login.html")));
 
 app.use('/api/v1/', userRoutes);
 app.use('/api/v1/accounts', accountRoutes);
