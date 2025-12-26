@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 
 // app.get('/', (req, res) => res.send('Welcome to Banka'));
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,"UI",'index.html'));
+  res.sendFile(path.join(__dirname,"..","UI",'index.html'));
 });
 app.use('/api/v1/', userRoutes);
 app.use('/api/v1/accounts', accountRoutes);
