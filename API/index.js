@@ -22,8 +22,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressValidator());
 app.use(express.json());
-app.use(express.static(path.join("__dirname", "UI")));
-app.use(express.static(path.join("__dirname", "UI/user")));
+app.use(express.static(path.join("__dirname","..", "UI")));
+app.use(express.static(path.join("__dirname","..", "UI/user")));
 
 // CORS
 app.use((req, res, next) => {
