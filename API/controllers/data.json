@@ -557,7 +557,7 @@
     "cpassword": "12312345",
     "role": "default",
     "loginStatus": false,
-    "balance": 80289,
+    "balance": 104375.7,
     "transactions": [
       {
         "txnId": "TX3321766560671482",
